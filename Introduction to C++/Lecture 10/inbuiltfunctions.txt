@@ -1,0 +1,4 @@
+strlen(str) -> int i.e. the size of the string
+strcmp(str1, str2) -> int if 0 then equal else not equal
+strcpy(str1, str2) where str1 is the destination and str2 is the source
+strncpy(str1, str2, n) where str1 is the destination, str2 is the source and n is the no of characters.
