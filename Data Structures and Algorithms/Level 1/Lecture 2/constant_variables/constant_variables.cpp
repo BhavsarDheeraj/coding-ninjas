@@ -15,7 +15,13 @@ int main()
   const int &l = i;
   cout << j << endl;
 
-  const int *p = &i;
+  int const *p = &i; //p is a a pointer pointing to a constant integer. Although p is not a constant
+
+  p = &j; //Valid 😅😅😅😅😅
+
+  int *const q = &j; //q is a constant pointer pointing to an integer.
+
+  int const *const p2 = &i; //p2 is a constant pointer pointing to a constant integer 😂😂😂😂😂😂😂😂
 
   return 0;
 }
